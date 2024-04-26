@@ -21,13 +21,6 @@ public class CifradoPolybius {
         int clave1 = scanner.nextInt();
         System.out.println("Introduce la clave 2:");
         int clave2 = scanner.nextInt();
-        /*System.out.println("Introduce la clave: (Ejemplo: 2x2)");
-        String clave = scanner.nextLine();
-        char []claveEquals=new char [clave.length()];
-        int cont=0;
-        for(int c=0;c<clave.length();c++){
-            claveEquals[c]=clave.charAt(c);
-        }*/
         
         System.out.println("¿Que desea realizar?\n1. Cifrar\n2. Descifrar");
         opc = scanner.nextInt();
